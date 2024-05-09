@@ -1,0 +1,30 @@
+body{
+   background-color:#FFD6FF ; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pizza{
+    border:1px solid #B8C0FF;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    
+}
+.medium_pizza{
+    background-color: #E7C6FF;
+}
+
+.large_pizza{
+    background-color: #C8B6FF;
+}
+
+.small_pizza{
+    background-color: #B8C0FF;
+}
+.contact{
+    background-color: #BBD0FF;
+}
+@media (min-width: 960px) {
+    .pizzas {
+        display:flex;
+    }
+}
